@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens</title>
+</head>
+<body>
+    <h1>Imagens dinâminas</h1>
+    <p>
+        Teste varias resoluções de tamanhos de imagens para dispositivos do usario, sempre pense no usuario.
+    </p>
+    <picture>
+
+        <source media="(max-width: 800px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1100px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexivel">
+    </picture>
+<h1>Reproduzindo audio</h1>
+<p>
+    Vamos aprender a reproduzir audio em HTML
+</p>
+<audio src="midia/corinthians.mp3" controls autoplay loop></audio>
+
+</body>
+</html>
