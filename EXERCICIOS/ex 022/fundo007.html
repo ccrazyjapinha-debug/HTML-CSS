@@ -5,21 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>alinhamento vertical</title>
     <style>
-        #container{
-            height: 500px;
-            background-color: purple;
+       #container{
 
-        }
-        #conteudo{
-            height: 200px;
-            background-color: yellow;
+        background-size:100% 100%;
+        background-color:purple;
+        background-image:url('imagens/target001.png');
+        height:96vh;
+        padding:10px;
 
-        }
+       }
+       #conteudo{
+        position:absolute;
+        background-size:100% 100%;
+        background-color:yellow;
+        background-image:url('imagens/target001.png');
+        height: 200px;
+        width:400px;
+        left:50%;
+        top:50%;
+        transform:translate(-50%,-50%);
+
+       }
     </style>
 </head>
 <body>
     <section id="container">
         <article id="conteudo">
+           
 
         </article>
     </section>
