@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+       
+        body{
+            font-family:Arial, Helvetica, sans-serif;
+            background-image:url('imagens/brasil-centro-do-mundo.jpg');
+            background-repeat:no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            min-height: 100vh;
+            margin: 0;
+
+        }
+        
+        h1{
+            text-align: center;
+
+        }
+        caption{
+            font-size:1.5em;
+            font-weight:bolder;
+            padding:10px;
+            background-color:rgba(179, 177, 177, 0.705);
+            box-shadow: 3px -2px 11px  rgba(0, 0, 0, 0.63);
+            
+        }
+        tbody > tr:nth-child(2n) {
+            background-color:rgba(247, 177, 177, 0.39);
+        }
+        tbody > tr:hover {
+            background-color: rgba(255, 255, 255, 0.2); /* Um brilho claro */
+            cursor:default; /* Opcional: muda o cursor para a "mãozinha" */
+        }
+        table{
+            width:500px;
+            border-collapse:collapse;
+            background-color:rgba(128, 128, 128, 0.479);
+            margin:0 auto;
+            position:relative;
+        }
+        thead > tr > th{
+            position:sticky;
+            top:-1px;
+        }
+       
+        th{
+            padding:15px;
+            border: 1px solid black;
+            background-color:gray;
+            color:white;
+        }
+        td{
+            padding:10px;
+            border:1px solid black;
+        }
+        .numero{
+            text-align:right;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    
+        <table>
+            <caption>População das Unidades Federativas</caption>
+            <thead>
+                <tr>
+                    <th>Estado</th>
+                    <th style="width: 100px;">População</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>São Paulo</td>
+                    <td class="numero">45 919 049</td>
+                </tr>
+                <tr>
+                    <td>Minas Gerais</td>
+                    <td class="numero">21 168 791</td>
+                </tr>
+                <tr>
+                    <td>Rio de Janeiro</td>
+                    <td class="numero">17 264 943</td>
+                </tr>
+                <tr>
+                    <td>Bahia</td>
+                    <td class="numero">14 873 064</td>
+                </tr>
+                <tr>
+                    <td>Paraná</td>
+                    <td class="numero">11 433 957</td>
+                </tr>
+                <tr>
+                    <td>Rio grande do Sul</td>
+                    <td class="numero">11 377 239</td>
+                </tr>
+                <tr>
+                    <td>Pernambuco</td>
+                    <td class="numero">9 557 071</td>
+                </tr>
+                 <tr>
+                    <td>São Paulo</td>
+                    <td class="numero">45 919 049</td>
+                </tr>
+                <tr>
+                    <td>Minas Gerais</td>
+                    <td class="numero">21 168 791</td>
+                </tr>
+                <tr>
+                    <td>Rio de Janeiro</td>
+                    <td class="numero">17 264 943</td>
+                </tr>
+                <tr>
+                    <td>Bahia</td>
+                    <td class="numero">14 873 064</td>
+                </tr>
+                <tr>
+                    <td>Paraná</td>
+                    <td class="numero">11 433 957</td>
+                </tr>
+                <tr>
+                    <td>Rio grande do Sul</td>
+                    <td class="numero">11 377 239</td>
+                </tr>
+                <tr>
+                    <td>Pernambuco</td>
+                    <td class="numero">9 557 071</td>
+                </tr>
+                 <tr>
+                    <td>São Paulo</td>
+                    <td class="numero">45 919 049</td>
+                </tr>
+                <tr>
+                    <td>Minas Gerais</td>
+                    <td class="numero">21 168 791</td>
+                </tr>
+                <tr>
+                    <td>Rio de Janeiro</td>
+                    <td class="numero">17 264 943</td>
+                </tr>
+                <tr>
+                    <td>Bahia</td>
+                    <td class="numero">14 873 064</td>
+                </tr>
+                <tr>
+                    <td>Paraná</td>
+                    <td class="numero">11 433 957</td>
+                </tr>
+                <tr>
+                    <td>Rio grande do Sul</td>
+                    <td class="numero">11 377 239</td>
+                </tr>
+                <tr>
+                    <td>Pernambuco</td>
+                    <td class="numero">9 557 071</td>
+                </tr>
+                 <tr>
+                    <td>São Paulo</td>
+                    <td class="numero">45 919 049</td>
+                </tr>
+                <tr>
+                    <td>Minas Gerais</td>
+                    <td class="numero">21 168 791</td>
+                </tr>
+                <tr>
+                    <td>Rio de Janeiro</td>
+                    <td class="numero">17 264 943</td>
+                </tr>
+                <tr>
+                    <td>Bahia</td>
+                    <td class="numero">14 873 064</td>
+                </tr>
+                <tr>
+                    <td>Paraná</td>
+                    <td class="numero">11 433 957</td>
+                </tr>
+                <tr>
+                    <td>Rio grande do Sul</td>
+                    <td class="numero">11 377 239</td>
+                </tr>
+                <tr>
+                    <td>Pernambuco</td>
+                    <td class="numero">9 557 071</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th>Total de habitantes</th>
+                    <td class="numero"><strong>0000</strong></td>
+                </tr>
+            </tfoot>
+        </table>
+    
+
+    
+</body>
+</html>
